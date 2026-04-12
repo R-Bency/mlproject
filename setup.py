@@ -18,7 +18,7 @@ setup(
     version='0.0.1',
     author='Bency',
     author_email='bennyedu11@gmail.com',
-    packages=find_packages(),
+    packages=find_packages(),#finds all the packages in the project
     install_requires=get_req('requirements.txt')
 
 )
